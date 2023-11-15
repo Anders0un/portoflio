@@ -1,0 +1,28 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em;
+}
+.info {
+  text-align: center;
+}
+.highlighted {
+  color: rgb(255, 204, 0);
+}
+.info h2 {
+  font-size: 0.7em;
+  color: rgb(236, 236, 154);
+}
+
+.about {
+  border-top: 1px solid rgba(101, 95, 95, 0.125);
+  padding: 0.5em;
+  text-align: center;
+}
+.about p {
+  color: #888888;
+  font-size: 0.9em;
+}
